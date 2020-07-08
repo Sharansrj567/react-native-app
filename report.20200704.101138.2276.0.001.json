@@ -1,0 +1,419 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200704.101138.2276.0.001.json",
+    "dumpEventTime": "2020-07-04T10:11:38Z",
+    "dumpEventTimeStamp": "1593837698371",
+    "processId": 2276,
+    "threadId": null,
+    "cwd": "C:\\Users\\Asus\\Desktop\\react native projects\\srj_new",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Asus\\Desktop\\react native projects\\srj_new\\node_modules\\react-native\\local-cli\\cli.js",
+      "start",
+      "--port",
+      "19001",
+      "--customLogReporterPath",
+      "C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\expo-cli\\node_modules\\@expo\\xdl\\build\\reporter\\index.js",
+      "--sourceExts",
+      "expo.ts,expo.tsx,expo.js,expo.jsx,ts,tsx,js,jsx,json,wasm",
+      "--assetPlugins",
+      "C:\\Users\\Asus\\Desktop\\react native projects\\srj_new\\node_modules\\expo-asset\\tools\\hashAssetFiles.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 10478906,
+        "nice": 0,
+        "sys": 11871671,
+        "idle": 33836937,
+        "irq": 1039140
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 10604140,
+        "nice": 0,
+        "sys": 9664218,
+        "idle": 35918984,
+        "irq": 297609
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 11406468,
+        "nice": 0,
+        "sys": 10736734,
+        "idle": 34044140,
+        "irq": 62500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "speed": 2904,
+        "user": 12233515,
+        "nice": 0,
+        "sys": 8650390,
+        "idle": 35303453,
+        "irq": 47343
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:11",
+        "address": "fe80::2d4b:509:8a83:aa3a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:11",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "f0:03:8c:c7:cf:17",
+        "address": "2409:4071:e85:e35d:29b9:3711:f8fd:4ff5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "f0:03:8c:c7:cf:17",
+        "address": "2409:4071:e85:e35d:dc31:5b6e:2743:46d9",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "f0:03:8c:c7:cf:17",
+        "address": "fe80::29b9:3711:f8fd:4ff5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "f0:03:8c:c7:cf:17",
+        "address": "192.168.43.185",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-6JTQEHA"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7c0442449",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c04469a9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0445828",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c057d8c2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0d99bbe",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0d81c91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0c4e1ec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0c56171",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0c4b743",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0c49db4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c0c6afbd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c09d1871",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7c11e6c4d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000003ff95a6e7a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 115126272,
+    "totalCommittedMemory": 115126272,
+    "usedMemory": 113003360,
+    "availableMemory": 2084977544,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047408,
+        "available": 48
+      },
+      "old_space": {
+        "memorySize": 91107328,
+        "committedMemory": 91107328,
+        "capacity": 90688784,
+        "used": 89869024,
+        "available": 819760
+      },
+      "code_space": {
+        "memorySize": 954368,
+        "committedMemory": 954368,
+        "capacity": 895456,
+        "used": 739104,
+        "available": 156352
+      },
+      "map_space": {
+        "memorySize": 1576960,
+        "committedMemory": 1576960,
+        "capacity": 1574824,
+        "used": 1309920,
+        "available": 264904
+      },
+      "large_object_space": {
+        "memorySize": 20127744,
+        "committedMemory": 20127744,
+        "capacity": 20002312,
+        "used": 20002312,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 24.921,
+    "kernelCpuSeconds": 22.25,
+    "cpuConsumptionPercent": 1.05316,
+    "maxRss": 212439040,
+    "pageFaults": {
+      "IORequired": 154103,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2977,
+      "writes": 1661
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ADB": "C:\\Android\\sdk\\platform-tools",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\Asus\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Asus\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-6JTQEHA",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Asus\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HerokuPath": "C:\\Program Files (x86)\\Heroku",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Asus",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-12.0.2",
+    "LOCALAPPDATA": "C:\\Users\\Asus\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-6JTQEHA",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Asus\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\Asus\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files\\Amazon Corretto\\jdk11.0.4_10\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Java\\jdk-11.0.1\\bin;C:\\Java\\jre1.8.0_191\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Java\\jdk1.8.0_221\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Heroku\\bin;C:\\Program Files (x86)\\git\\cmd;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Android\\sdk\\platform-tools;C:\\Program Files\\PuTTY\\;C:\\Users\\Asus\\AppData\\Local\\Android\\Sdk\\platforms;C:\\Users\\Asus\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\Asus\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Asus\\Anaconda3;C:\\Users\\Asus\\AppData\\Local\\atom\\bin;C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\file\\Microsoft VS Code\\bin;C:\\Users\\Asus\\Anaconda3\\Scripts;C:\\Users\\Asus\\Anaconda3\\Library\\bin;C:\\Users\\Asus\\AppData\\Roaming\\npm;C:\\Program Files\\Multipass\\bin;C:\\file\\flutter\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "REACT_NATIVE_APP_ROOT": "C:\\Users\\Asus\\Desktop\\react native projects\\srj_new",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Asus\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Asus\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-6JTQEHA",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-6JTQEHA",
+    "USERNAME": "Asus",
+    "USERPROFILE": "C:\\Users\\Asus",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll"
+  ]
+}
