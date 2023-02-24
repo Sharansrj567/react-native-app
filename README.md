@@ -25,4 +25,4 @@ _This is a basic implementation of todo app. Through this project I understood b
 
 _MIT_
 
-Copyright (c) 2023 Sharansrj567_
+Copyright (c) 2023 Sharansrj567
